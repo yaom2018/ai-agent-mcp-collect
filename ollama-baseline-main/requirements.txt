@@ -1,0 +1,26 @@
+# 核心机器学习依赖 - training模块
+torch>=2.0.0,<3.0.0
+transformers>=4.30.0,<5.0.0
+peft>=0.4.0,<0.15.0
+tokenizers>=0.13.0,<1.0.0
+safetensors>=0.3.0,<1.0.0
+
+# 数据处理 - dataScripts模块
+requests>=2.25.0,<3.0.0
+tqdm>=4.60.0,<5.0.0
+loguru>=0.6.0,<1.0.0
+
+# 配置文件处理 - training模块
+PyYAML>=6.0,<7.0
+
+# Web应用 - application模块
+streamlit>=1.20.0,<2.0.0
+
+# MCP服务器 - mcp_server模块
+mcp>=1.0.0
+
+# llama.cpp转换工具 - convert_lora_to_gguf.py
+gguf>=0.1.0
+
+# 系统监控 - training模块
+psutil>=5.8.0,<8.0.0
